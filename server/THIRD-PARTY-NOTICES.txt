@@ -109,7 +109,7 @@ refer to WHO's classification (https://icd.who.int/).
 5. Java libraries of the server
 ==============================================================================================================
 
-ClinicNest – server: Java libraries (176)
+ClinicNest – server: Java libraries (200)
 Each is used unchanged; its source code is available from its project (the links below) and from Maven Central.
 
 com.aayushatharva.brotli4j:brotli4j:1.23.0 – Apache License 2.0
@@ -119,6 +119,63 @@ com.aayushatharva.brotli4j:brotli4j:1.23.0 – Apache License 2.0
 
 com.aayushatharva.brotli4j:service:1.23.0 – Apache License 2.0
   https://www.apache.org/licenses/LICENSE-2.0
+
+------------------------------------------------------------------------------
+
+com.anthropic:anthropic-java:2.34.0 – MIT
+
+Copyright (c) Anthropic
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
+documentation files (the "Software"), to deal in the Software without restriction, including without limitation the
+rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit
+persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the
+Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
+WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+------------------------------------------------------------------------------
+
+com.anthropic:anthropic-java-client-okhttp:2.34.0 – MIT
+
+Copyright (c) Anthropic
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
+documentation files (the "Software"), to deal in the Software without restriction, including without limitation the
+rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit
+persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the
+Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
+WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+------------------------------------------------------------------------------
+
+com.anthropic:anthropic-java-core:2.34.0 – MIT
+
+Copyright (c) Anthropic
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
+documentation files (the "Software"), to deal in the Software without restriction, including without limitation the
+rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit
+persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the
+Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
+WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ------------------------------------------------------------------------------
 
@@ -293,6 +350,36 @@ from the source code management (SCM) system project uses.
 
 ------------------------------------------------------------------------------
 
+com.fasterxml.jackson.module:jackson-module-kotlin:2.21.7 – The Apache Software License, Version 2.0
+  https://www.apache.org/licenses/LICENSE-2.0.txt
+
+# Jackson JSON processor
+
+Jackson is a high-performance, Free/Open Source JSON processing library.
+It was originally written by Tatu Saloranta (tatu.saloranta@iki.fi), and has
+been in development since 2007.
+It is currently developed by a community of developers, as well as supported
+commercially by FasterXML.com.
+
+## Copyright
+
+Copyright 2007-, Tatu Saloranta (tatu.saloranta@iki.fi)
+
+## Licensing
+
+Jackson core and extension components may be licensed under different licenses.
+To find the details that apply to this artifact see the accompanying LICENSE file.
+For more information, including possible other licensing options, contact
+FasterXML.com (http://fasterxml.com).
+
+## Credits
+
+A list of contributors may be found from CREDITS file, which is included
+in some artifacts (usually source distributions); but is always available
+from the source code management (SCM) system project uses.
+
+------------------------------------------------------------------------------
+
 com.fasterxml.jackson.module:jackson-module-parameter-names:2.21.7 – The Apache Software License, Version 2.0
   http://www.apache.org/licenses/LICENSE-2.0.txt
 
@@ -325,13 +412,92 @@ from the source code management (SCM) system project uses.
 
 ------------------------------------------------------------------------------
 
+com.fasterxml:classmate:1.7.1 – Apache License, Version 2.0
+  https://www.apache.org/licenses/LICENSE-2.0.txt
+
+This copy of Java ClassMate library is licensed under Apache (Software) License,
+version 2.0 ("the License").
+See the License for details about distribution rights, and the specific rights regarding derivate works.
+
+You may obtain a copy of the License at:
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Java ClassMate library was originally written by Tatu Saloranta (tatu.saloranta@iki.fi)
+
+Other developers who have contributed code are:
+
+* Brian Langel
+
+## Copyright
+
+Copyright 2007-, Tatu Saloranta (tatu.saloranta@iki.fi)
+
+------------------------------------------------------------------------------
+
 com.github.ben-manes.caffeine:caffeine:3.2.4 – Apache License, Version 2.0
   https://www.apache.org/licenses/LICENSE-2.0.txt
 
 ------------------------------------------------------------------------------
 
+com.github.victools:jsonschema-generator:4.38.0 – The Apache License, Version 2.0
+  http://www.apache.org/licenses/LICENSE-2.0.txt
+
+------------------------------------------------------------------------------
+
+com.github.victools:jsonschema-module-jackson:4.38.0 – The Apache License, Version 2.0
+  http://www.apache.org/licenses/LICENSE-2.0.txt
+
+------------------------------------------------------------------------------
+
+com.github.victools:jsonschema-module-swagger-2:4.38.0 – The Apache License, Version 2.0
+  http://www.apache.org/licenses/LICENSE-2.0.txt
+
+------------------------------------------------------------------------------
+
 com.google.errorprone:error_prone_annotations:2.49.0 – Apache 2.0
   http://www.apache.org/licenses/LICENSE-2.0.txt
+
+------------------------------------------------------------------------------
+
+com.squareup.okhttp3:okhttp:4.12.0 – The Apache Software License, Version 2.0
+  http://www.apache.org/licenses/LICENSE-2.0.txt
+
+------------------------------------------------------------------------------
+
+com.squareup.okio:okio-jvm:3.6.0 – The Apache Software License, Version 2.0
+  http://www.apache.org/licenses/LICENSE-2.0.txt
+
+------------------------------------------------------------------------------
+
+com.standardwebhooks:standardwebhooks:1.1.0 – The MIT License
+  https://opensource.org/licenses/MIT
+
+Copyright (c) Standard Webhooks
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
+documentation files (the "Software"), to deal in the Software without restriction, including without limitation the
+rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit
+persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the
+Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
+WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+------------------------------------------------------------------------------
+
+commons-logging:commons-logging:1.3.3 – Apache-2.0
+  https://www.apache.org/licenses/LICENSE-2.0.txt
+
+Apache Commons Logging
+Copyright 2001-2024 The Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (https://www.apache.org/).
 
 ------------------------------------------------------------------------------
 
@@ -911,6 +1077,16 @@ io.smallrye:smallrye-context-propagation-storage:2.3.0 – The Apache Software L
 
 io.smallrye:smallrye-fault-tolerance-vertx:6.11.4 – Apache License, Version 2.0
   https://www.apache.org/licenses/LICENSE-2.0.txt
+
+------------------------------------------------------------------------------
+
+io.swagger.core.v3:swagger-annotations:2.2.31 – Apache License 2.0
+  http://www.apache.org/licenses/LICENSE-2.0.html
+
+Swagger Core - swagger-annotations
+Copyright (c) 2015. SmartBear Software Inc.
+Swagger Core - swagger-annotations  is licensed under Apache 2.0 license.
+Copy of the Apache 2.0 license can be found in `LICENSE` file.
 
 ------------------------------------------------------------------------------
 
@@ -6212,6 +6388,98 @@ permitted.
 
 ------------------------------------------------------------------------------
 
+org.apache.httpcomponents.client5:httpclient5:5.6.4 – Apache License, Version 2.0
+  https://www.apache.org/licenses/LICENSE-2.0.txt
+
+Apache HttpClient
+Copyright 1999-2021 The Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+------------------------------------------------------------------------------
+
+org.apache.httpcomponents.core5:httpcore5:5.4.3 – Apache License, Version 2.0
+  https://www.apache.org/licenses/LICENSE-2.0.txt
+
+Apache HttpComponents Core HTTP/1.1
+Copyright 2005-2021 The Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+------------------------------------------------------------------------------
+
+org.apache.httpcomponents.core5:httpcore5-h2:5.4.3 – Apache License, Version 2.0
+  https://www.apache.org/licenses/LICENSE-2.0.txt
+
+Apache HttpComponents Core HTTP/2
+Copyright 2005-2021 The Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+------------------------------------------------------------------------------
+
+org.apache.pdfbox:fontbox:3.0.3 – Apache-2.0
+  https://www.apache.org/licenses/LICENSE-2.0.txt
+
+Apache FontBox
+Copyright 2008-2024 The Apache Software Foundation
+
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+Based on source code contributed to the original FontBox project.
+Copyright (c) 2006-2007, www.fontbox.org
+
+Includes the Script Property (Scripts-10.0.0.txt)
+Copyright 2017 Unicode, Inc.
+
+------------------------------------------------------------------------------
+
+org.apache.pdfbox:pdfbox:3.0.3 – Apache-2.0
+  https://www.apache.org/licenses/LICENSE-2.0.txt
+
+Apache PDFBox
+Copyright 2002-2024 The Apache Software Foundation
+
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+Based on source code contributed to the original PDFBox project.
+Copyright (c) 2002-2007, www.pdfbox.org
+
+Includes the Adobe Glyph List
+Copyright 1997, 1998, 2002, 2007, 2010 Adobe Systems Incorporated.
+
+Includes the Zapf Dingbats Glyph List
+Copyright 2002, 2010 Adobe Systems Incorporated.
+
+Includes the Bidi Mirroring Glyph Property (BidiMirroring-8.0.0.txt)
+Copyright 1991-2015 Unicode, Inc.
+
+Includes parts of TwelveMonkeys ImageIO
+Copyright 2008-2016 Harald Kuhr
+
+Includes the CMYK ICC-profile (CGATS001Compat-v2-micro.icc) 
+https://github.com/saucecontrol/Compact-ICC-Profiles
+Released to the public domain under the Creative Commons CC0 license by Clinton Ingram, saucecontrol
+
+------------------------------------------------------------------------------
+
+org.apache.pdfbox:pdfbox-io:3.0.3 – Apache-2.0
+  https://www.apache.org/licenses/LICENSE-2.0.txt
+
+Apache PDFBox io
+Copyright 2002-2024 The Apache Software Foundation
+
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+------------------------------------------------------------------------------
+
 org.crac:crac:1.5.0 – BSD-2-Clause
   https://opensource.org/licenses/BSD-2-Clause
 
@@ -7052,6 +7320,31 @@ org.jdbi:jdbi3-core:3.55.0 – Apache License 2.0
 
 org.jdbi:jdbi3-sqlobject:3.55.0 – Apache License 2.0
   https://www.apache.org/licenses/LICENSE-2.0.html
+
+------------------------------------------------------------------------------
+
+org.jetbrains.kotlin:kotlin-reflect:2.4.10 – Apache-2.0
+  http://www.apache.org/licenses/LICENSE-2.0.txt
+
+------------------------------------------------------------------------------
+
+org.jetbrains.kotlin:kotlin-stdlib:2.4.10 – Apache-2.0
+  http://www.apache.org/licenses/LICENSE-2.0.txt
+
+------------------------------------------------------------------------------
+
+org.jetbrains.kotlin:kotlin-stdlib-jdk7:2.4.10 – Apache-2.0
+  http://www.apache.org/licenses/LICENSE-2.0.txt
+
+------------------------------------------------------------------------------
+
+org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.4.10 – Apache-2.0
+  http://www.apache.org/licenses/LICENSE-2.0.txt
+
+------------------------------------------------------------------------------
+
+org.jetbrains:annotations:26.1.0 – The Apache Software License, Version 2.0
+  https://www.apache.org/licenses/LICENSE-2.0.txt
 
 ------------------------------------------------------------------------------
 
