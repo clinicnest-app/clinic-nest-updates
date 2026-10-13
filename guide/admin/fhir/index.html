@@ -744,7 +744,7 @@ same form in which records are exchanged there.</p>
 <p>Use it to hand a record to another hospital or system, to give patients their records in a standard form, or when
 the clinic moves to other software. For a safety copy of everything, use <a href="/guide/admin/backup/">Backup</a> instead.</p>
 <div class="sl-heading-wrapper level-h2"><h2 id="export">Export</h2><a class="sl-anchor-link" href="#export"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Section titled “Export”</span></a></div>
-<p>Only doctors see these entries, in the <strong>⋮</strong> menu.</p>
+<p>Only doctors see these.</p>
 <table>
 <thead>
 <tr>
@@ -756,21 +756,22 @@ the clinic moves to other software. For a safety copy of everything, use <a href
 <tbody>
 <tr>
 <td>A patient’s page</td>
-<td><strong>Export record (FHIR)</strong></td>
+<td>the button <strong>Export (FHIR)</strong> (on a phone: in the <strong>⋮</strong> menu)</td>
 <td>The patient and every visit, in one file</td>
 </tr>
 <tr>
 <td>A visit</td>
-<td><strong>Consultation record (FHIR)</strong></td>
+<td><strong>⋮ → Consultation record (FHIR)</strong></td>
 <td>Complaints, vital signs, findings, diagnoses with their ICD-10 codes, medicines, investigations advised, the next visit and the advice</td>
 </tr>
 <tr>
 <td>A visit with medicines</td>
-<td><strong>Prescription record (FHIR)</strong></td>
+<td><strong>⋮ → Prescription record (FHIR)</strong></td>
 <td>The prescription only</td>
 </tr>
 </tbody>
 </table>
+<p><strong>Clinic settings → Backup</strong> also says where these are.</p>
 <p>The file is saved by the browser (ending <code dir="auto">.fhir.json</code>). Every export is written to the <a href="/guide/admin/audit/">audit log</a>.</p>
 <div class="sl-heading-wrapper level-h2"><h2 id="what-is-in-the-file">What is in the file</h2><a class="sl-anchor-link" href="#what-is-in-the-file"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Section titled “What is in the file”</span></a></div>
 <ul>
