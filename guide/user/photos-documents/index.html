@@ -782,8 +782,19 @@
 fundus cameras, are often <strong>DICOM</strong> files. Their names often end in <code dir="auto">.dcm</code>; on a CD they often have no ending at all,
 for example <code dir="auto">IM000123</code>. Add them with <strong>Add photo, PDF or DICOM</strong> like any other file.</p>
 <ul>
-<li>ClinicNest keeps the file as it is and shows a picture made of it. Of a scan with many slices it shows the
-middle one.</li>
+<li>ClinicNest keeps the file as it is and shows a picture made of it. Of a file with many pictures (an ultrasound
+loop, an OCT) the list shows the middle one.</li>
+<li>Opening it gives a simple viewer:
+<ul>
+<li><strong>Brightness and contrast</strong> (the sun button): drag up and down for brightness, left and right for contrast.
+For CT there are buttons for brain, soft tissue, lung and bone.</li>
+<li><strong>Move</strong> and <strong>zoom</strong> (the buttons, or Ctrl and the mouse wheel).</li>
+<li><strong>Measure</strong> (the ruler): drag from one point to the other; the distance is shown in mm when the file says
+how large a pixel is (for X-rays marked “≈”: measured at the detector, a little larger than in the body).</li>
+<li><strong>Invert</strong> swaps dark and light; the arrow brings everything back.</li>
+<li>A file with many pictures: the slider or the mouse wheel goes through them.</li>
+</ul>
+</li>
 <li>The title says what was taken, of which part and when, for example <code dir="auto">X-ray, knee, 12 Oct 2026</code>.</li>
 <li><strong>Download DICOM file</strong> in its window gives the file itself, to open in a DICOM viewer, for example the one on
 the imaging centre’s CD.</li>
