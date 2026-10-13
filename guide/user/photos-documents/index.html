@@ -780,11 +780,26 @@
 <div class="sl-heading-wrapper level-h2"><h2 id="x-rays-and-scans-as-dicom-files">X-rays and scans as DICOM files</h2><a class="sl-anchor-link" href="#x-rays-and-scans-as-dicom-files"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Section titled “X-rays and scans as DICOM files”</span></a></div>
 <p>X-rays, CT and MRI scans from an imaging centre (on a CD, a pen drive or as a download), and the exports of OCT and
 fundus cameras, are often <strong>DICOM</strong> files. Their names often end in <code dir="auto">.dcm</code>; on a CD they often have no ending at all,
-for example <code dir="auto">IM000123</code>. Add them with <strong>Add photo, PDF or DICOM</strong> like any other file.</p>
+for example <code dir="auto">IM000123</code>.</p>
 <ul>
-<li>ClinicNest keeps the file as it is and shows a picture made of it. Of a file with many pictures (an ultrasound
-loop, an OCT) the list shows the middle one.</li>
-<li>Opening it gives a simple viewer:
+<li>
+<p><strong>A CD or pen drive:</strong> <strong>Add folder (CD, pen drive)</strong> and choose the drive or its folder. ClinicNest takes only the
+scan files (not the CD’s own viewer program) and puts the files of each scan together: a CT of 300 slices is one
+entry, not 300.</p>
+</li>
+<li>
+<p><strong>A download from the imaging centre’s website</strong> (usually a ZIP file): <strong>Add photo, PDF, DICOM or ZIP</strong> and choose
+the ZIP. It is opened in the browser.</p>
+</li>
+<li>
+<p><strong>Single files:</strong> <strong>Add photo, PDF, DICOM or ZIP</strong>, like any other file.</p>
+</li>
+<li>
+<p>ClinicNest keeps the file as it is and shows a picture made of it. Of a file with many pictures (an ultrasound
+loop, an OCT) the list shows the middle one.</p>
+</li>
+<li>
+<p>Opening it gives a simple viewer:</p>
 <ul>
 <li><strong>Brightness and contrast</strong> (the sun button): drag up and down for brightness, left and right for contrast.
 For CT there are buttons for brain, soft tissue, lung and bone.</li>
@@ -792,19 +807,31 @@ For CT there are buttons for brain, soft tissue, lung and bone.</li>
 <li><strong>Measure</strong> (the ruler): drag from one point to the other; the distance is shown in mm when the file says
 how large a pixel is (for X-rays marked “≈”: measured at the detector, a little larger than in the body).</li>
 <li><strong>Invert</strong> swaps dark and light; the arrow brings everything back.</li>
-<li>A file with many pictures: the slider or the mouse wheel goes through them.</li>
+<li>A scan with many pictures: the slider or the mouse wheel goes through them.</li>
+<li>A scan with several series (for example the axial slices and the scout image): the buttons above the picture
+choose one; it opens on the largest.</li>
 </ul>
 </li>
-<li>The title says what was taken, of which part and when, for example <code dir="auto">X-ray, knee, 12 Oct 2026</code>.</li>
-<li><strong>Open in Weasis (DICOM viewer)</strong> (on a computer): opens the file in <a href="https://weasis.org">Weasis</a>, a free DICOM viewer with
+<li>
+<p>The title says what was taken, of which part and when, for example <code dir="auto">X-ray, knee, 12 Oct 2026</code>.</p>
+</li>
+<li>
+<p><strong>Open in Weasis (DICOM viewer)</strong> (on a computer): opens the file in <a href="https://weasis.org">Weasis</a>, a free DICOM viewer with
 every tool a radiologist uses. Install it once on the computer; nothing more needs setting up. The link it uses
-works for five minutes and only on that computer.</li>
-<li><strong>Download DICOM file</strong> in its window gives the file itself, to open in another DICOM viewer, for example the
-one on the imaging centre’s CD.</li>
-<li>A few files are compressed in a way ClinicNest cannot show yet (JPEG-LS, 12-bit JPEG). They are kept in the
-record and can be downloaded; the window says so.</li>
-<li><strong>Ask AI</strong> reads the picture, not the file: the patient’s name and ID in the file stay in the clinic. A name
-printed into the picture itself would be sent.</li>
+works for five minutes and only on that computer.</p>
+</li>
+<li>
+<p><strong>Download DICOM file</strong> (a whole scan: <strong>Download DICOM files (ZIP)</strong>) in its window gives the files themselves, to open in another DICOM viewer, for example the
+one on the imaging centre’s CD.</p>
+</li>
+<li>
+<p>A few files are compressed in a way ClinicNest cannot show yet (JPEG-LS, 12-bit JPEG). They are kept in the
+record and can be downloaded; the window says so.</p>
+</li>
+<li>
+<p><strong>Ask AI</strong> reads the picture, not the file: the patient’s name and ID in the file stay in the clinic. A name
+printed into the picture itself would be sent.</p>
+</li>
 </ul>
 <div class="sl-heading-wrapper level-h2"><h2 id="look-at-one-or-remove-it">Look at one, or remove it</h2><a class="sl-anchor-link" href="#look-at-one-or-remove-it"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Section titled “Look at one, or remove it”</span></a></div>
 <p>Click a photo or document. It opens in a window of ClinicNest; a PDF can be read and printed there. <strong>Open full
