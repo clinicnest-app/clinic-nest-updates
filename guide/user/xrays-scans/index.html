@@ -825,52 +825,59 @@ screen shows how far it is (<code dir="auto">Adding 37 of 312 files …</code>).
 </ul>
 <div class="sl-heading-wrapper level-h2"><h2 id="look-at-a-scan">Look at a scan</h2><a class="sl-anchor-link" href="#look-at-a-scan"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Section titled “Look at a scan”</span></a></div>
 <p>Click the entry. The viewer opens.</p>
-<p><img alt="The viewer with a CT of the head: the series Scout and Axial, the tools, the buttons Brain, Soft tissue, Lung and Bone, the slider at picture 21 of 41, and below Ask AI, Open in Weasis and Download" loading="lazy" decoding="async" width="1400" height="1585" src="/_astro/dicom-viewer.gnF4od6Z_k1Mop.webp"></p>
+<p><img alt="The viewer with a CT of the head: the series Scout and Axial, the tools, the buttons Brain, Soft tissue, Lung and Bone, the slider at the right edge at picture 21 of 41, and below Ask AI, Open in Weasis and Download" loading="lazy" decoding="async" width="1400" height="1208" src="/_astro/dicom-viewer.CHcyYlFw_2iD5xy.webp"></p>
+<p>When the viewer opens, no tool is chosen: dragging up and down on the picture goes through the pictures of a scan
+(a single picture is moved). Press a tool to drag for that instead – the button turns blue; press it again to put
+the tool down. Hold the mouse over a button to read what it does.</p>
 <table>
 <thead>
 <tr>
-<th>Tool</th>
+<th>Button</th>
 <th>What it does</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><strong>Brightness and contrast</strong> (the sun)</td>
-<td>Drag up and down for brightness, left and right for contrast. The picture changes at once and stays sharp.</td>
+<td>Drag down for brighter, up for darker; right for more contrast, left for less. The picture changes at once and stays sharp.</td>
 </tr>
 <tr>
-<td><strong>Brain, Soft tissue, Lung, Bone</strong></td>
-<td>For a CT: the usual settings with one click.</td>
-</tr>
-<tr>
-<td><strong>Move</strong></td>
+<td><strong>Move</strong> (the four arrows)</td>
 <td>Drag the picture.</td>
-</tr>
-<tr>
-<td><strong>Zoom in / Zoom out</strong></td>
-<td>Also Ctrl and the mouse wheel.</td>
 </tr>
 <tr>
 <td><strong>Measure</strong> (the ruler)</td>
 <td>Drag from one point to the other. The distance is shown in mm when the file says how large a pixel is. For X-rays it is marked <code dir="auto">≈</code>: measured at the detector, so a little larger than in the body.</td>
 </tr>
 <tr>
-<td><strong>Invert</strong></td>
-<td>Swaps dark and light.</td>
+<td><strong>Zoom in / Zoom out</strong> (the magnifying glasses)</td>
+<td>Also Ctrl and the mouse wheel.</td>
 </tr>
 <tr>
-<td><strong>Back to the start</strong> (the arrow)</td>
-<td>Brings everything back.</td>
+<td><strong>Invert</strong> (the half-filled circle)</td>
+<td>Swaps black and white.</td>
+</tr>
+<tr>
+<td><strong>Reset</strong> (the round arrow)</td>
+<td>Brings brightness, contrast, zoom and position back to how the picture was opened, and removes the measured line.</td>
+</tr>
+<tr>
+<td><strong>CT presets: Brain, Soft tissue, Lung, Bone</strong> (at the right)</td>
+<td>For a CT only: ready-made brightness and contrast settings. A CT holds far more shades of grey than a screen can show; each button sets them for one kind of tissue.</td>
 </tr>
 </tbody>
 </table>
 <ul>
-<li><strong>A scan with many pictures:</strong> the slider under the picture, or the mouse wheel, goes through them slice by slice.</li>
+<li><strong>A larger picture:</strong> drag the window’s lower right corner to make the window larger or smaller; the picture
+follows.</li>
+<li><strong>A scan with many pictures:</strong> the slider at the right edge of the picture goes through them slice by slice, top
+to bottom; so do the mouse wheel and the arrow keys (Page up and Page down: ten at a time; Home and End: the first
+and the last). The picture’s number is shown at its lower left, for example <code dir="auto">Picture 21 / 41</code>.</li>
 <li><strong>A scan with several series</strong> (for example the axial slices and the scout image): the buttons above the picture
 choose one. It opens on the largest.</li>
 <li><strong>Esc</strong> closes the viewer.</li>
 </ul>
-<p><img alt="Measuring on a wrist X-ray: a line across the bone, and its length, about 26.7 mm, at the top right" loading="lazy" decoding="async" width="1400" height="1485" src="/_astro/dicom-measure.mOLicajO_wNMrY.webp"></p>
+<p><img alt="Measuring on a wrist X-ray: a line across the bone, and its length, about 26.7 mm, at the top right" loading="lazy" decoding="async" width="1400" height="1208" src="/_astro/dicom-measure.Dk39iEYN_Z1gssre.webp"></p>
 <p>The viewer is for looking at a scan with the patient and checking a report. It is not a radiologist’s workstation.</p>
 <div class="sl-heading-wrapper level-h2"><h2 id="open-in-weasis-dicom-viewer">Open in Weasis (DICOM viewer)</h2><a class="sl-anchor-link" href="#open-in-weasis-dicom-viewer"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Section titled “Open in Weasis (DICOM viewer)”</span></a></div>
 <p>For everything a radiologist’s program can do – several series side by side, 3D, many measuring tools – press <strong>Open
