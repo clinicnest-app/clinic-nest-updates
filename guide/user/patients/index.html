@@ -165,7 +165,7 @@
 </button>
 				<script type="module">var e=class extends HTMLElement{constructor(){super();let e=matchMedia(`(min-width: 50em)`),t=()=>{this.popover=e.matches?null:`auto`};t(),e.addEventListener(`change`,()=>t()),this.addEventListener(`toggle`,({newState:e})=>this.trapFocus(e===`open`))}trapFocus(e){document.querySelectorAll(`.main-frame, .sl-skip-link`).forEach(t=>{t.toggleAttribute(`inert`,e)})}};customElements.define(`sl-sidebar-pane`,e);</script><sl-sidebar-pane popover id="starlight__sidebar" class="sidebar-pane astro-yntsjkba">
 					<div class="sidebar-content sl-flex astro-yntsjkba">
-						<sl-sidebar-state-persist data-hash="19im9hr" class="astro-ipdry5cl">
+						<sl-sidebar-state-persist data-hash="05lie2h" class="astro-ipdry5cl">
 	<script aria-hidden="true">
 		(() => {
 			try {
@@ -344,6 +344,11 @@
 			</li><li class="astro-rmhv4bp6">
 				<a href="/guide/user/children/" class="astro-rmhv4bp6">
 						<span class="astro-rmhv4bp6">Children&#39;s clinic forms</span>
+						
+					</a>
+			</li><li class="astro-rmhv4bp6">
+				<a href="/guide/user/lab-results/" class="astro-rmhv4bp6">
+						<span class="astro-rmhv4bp6">Lab results and charts</span>
 						
 					</a>
 			</li><li class="astro-rmhv4bp6">
@@ -677,8 +682,8 @@
 				</a>
 				
 			</li><li style="--depth: 0;" class="astro-jugkfwgx">
-				<a href="#lab-results-and-charts" style="--depth: 0;" class="astro-jugkfwgx">
-					<span style="--depth: 0;" class="astro-jugkfwgx">Lab results and charts</span>
+				<a href="#values-over-time" style="--depth: 0;" class="astro-jugkfwgx">
+					<span style="--depth: 0;" class="astro-jugkfwgx">Values over time</span>
 				</a>
 				
 			</li><li style="--depth: 0;" class="astro-jugkfwgx">
@@ -724,8 +729,8 @@
 				</a>
 				
 			</li><li style="--depth: 0;" class="astro-jugkfwgx">
-				<a href="#lab-results-and-charts" style="--depth: 0;" class="astro-jugkfwgx">
-					<span style="--depth: 0;" class="astro-jugkfwgx">Lab results and charts</span>
+				<a href="#values-over-time" style="--depth: 0;" class="astro-jugkfwgx">
+					<span style="--depth: 0;" class="astro-jugkfwgx">Values over time</span>
 				</a>
 				
 			</li><li style="--depth: 0;" class="astro-jugkfwgx">
@@ -859,15 +864,9 @@ Open that patient instead of registering a second time.</p>
 <p>On a phone these actions are in the <strong>⋮</strong> menu.</p>
 <p>Next to the patient’s name in the patient list, and on each visit, a scan symbol and a paperclip with a number show
 how many X-rays or scans and other photos or papers the record holds.</p>
-<div class="sl-heading-wrapper level-h2"><h2 id="lab-results-and-charts">Lab results and charts</h2><a class="sl-anchor-link" href="#lab-results-and-charts"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Section titled “Lab results and charts”</span></a></div>
-<p>Lab results are entered in the visit with the form <strong>Lab results</strong> – haemoglobin, fasting and post-meal sugar,
-HbA1c, creatinine, cholesterol, LDL, HDL, triglycerides, TSH and a note – typed, or read from a photo of the report
-by the <a href="/guide/user/ai-assistant/">AI assistant</a>.</p>
-<p>On the patient’s page, below the photos, cards such as <strong>Vitals over time</strong> and <strong>Lab results over time</strong> show the
-values of every visit side by side, newest first, with a small chart for each line under <strong>Trend</strong> – blood
-pressure, weight, HbA1c, sugar, creatinine, cholesterol and so on. <strong>Charts</strong> shows them large, one chart per value,
-oldest at the left; <strong>Table</strong> goes back. A date at the top opens that visit.</p>
-<p><img alt="Lab results over time as charts: HbA1c, sugar, haemoglobin, creatinine, cholesterol and LDL, HDL and triglycerides over three visits" loading="lazy" decoding="async" width="1400" height="983" src="/_astro/lab-charts.Bnd0l2sZ_rNC6h.webp"></p>
+<div class="sl-heading-wrapper level-h2"><h2 id="values-over-time">Values over time</h2><a class="sl-anchor-link" href="#values-over-time"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Section titled “Values over time”</span></a></div>
+<p>Below the photos, <strong>Vitals over time</strong> and <strong>Lab results over time</strong> show the values of every visit side by side,
+with a chart for each. See <a href="/guide/user/lab-results/">Lab results and charts</a>.</p>
 <div class="sl-heading-wrapper level-h2"><h2 id="who-can-do-this">Who can do this</h2><a class="sl-anchor-link" href="#who-can-do-this"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Section titled “Who can do this”</span></a></div>
 <p>Doctors and assistants.</p>
 
